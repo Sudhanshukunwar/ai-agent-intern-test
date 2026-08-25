@@ -8,6 +8,8 @@ The agent can answer questions using the company's knowledge base, look up order
 
 The main goal of this project was to build a support agent that is useful but also careful about company policies and customer data.
 
+https://drive.google.com/file/d/1EXX0y3rAY7emeiv1jeNiWJv_vplsHZzo/view"
+
 The agent supports:
 
 - Knowledge-base question answering
