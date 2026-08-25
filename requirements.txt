@@ -1,0 +1,9 @@
+# Only pytest is a real external dependency now -- retrieval (BM25),
+# .env loading, and front-matter parsing were rewritten to use only the
+# Python standard library (see app/bm25.py, app/simple_yaml.py, and the
+# loader in app/config.py), and the Anthropic API is called directly over
+# urllib instead of the `anthropic` SDK (see app/llm_client.py). This was
+# done specifically to avoid a fragile native/Rust-toolchain dependency
+# chain (jiter, tokenizers) and a numpy resolution failure hit in one
+# reviewer's local environment -- see the README's "Known limitations".
+pytest>=8.0.0
