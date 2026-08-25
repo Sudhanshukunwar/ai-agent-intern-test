@@ -379,7 +379,10 @@ For detailed tool/retrieval traces:
 
 python -m app.cli chat --debug
 
-[ Watch the Aster & Row Support Agent Demo](https://drive.google.com/file/d/1EXX0y3rAY7emeiv1jeNiWJv_vplsHZzo/view?usp=sharing)
+## Demo
+
+[🎥 Watch the Aster & Row Support Agent Demo](https://drive.google.com/file/d/1EXX0y3rAY7emeiv1jeNiWJv_vplsHZzo/view?usp=sharing)
+
 The project contains unit tests for:
 
 Order handling
